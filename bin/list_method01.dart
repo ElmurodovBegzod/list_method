@@ -8,4 +8,10 @@
         list: return answer
 */
 
-void main() {}
+List func(List n,String x){
+  n.add(x);
+  return n;
+}
+void main(){
+  print(func(['peach', 'strawberry'], 'apple'));
+}
