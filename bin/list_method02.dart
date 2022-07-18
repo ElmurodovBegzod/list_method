@@ -8,5 +8,11 @@
     Returns:
         list: return answer 
 */
+List func(List l,String x,int i){
+  l.insert(i,x);
+  return l;
+}
+void main(){
+  print(func(['peach', 'aprikot'], 'banana',1));
+}
 
-void main() {}
